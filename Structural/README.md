@@ -15,6 +15,6 @@ Diagrams in this category are:
 
 ## Class Diagram
 
-Class diagram describes the **_classes_** of application being modeled along with their relationship to one another.
+Class diagram describes the **_classes_** of application **_being modeled_** along **_with their relationship to one another_**.
 
 Class diagram represents the blueprint of the code. It is a very near view of the code of a system. It gives the idea of how code is structured and how it works.
