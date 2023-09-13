@@ -25,7 +25,9 @@ Class can be identified by 3 compartments:
 2. Attributes (properties or characteristics of a class) - they take the second box in the class diagram.
 3. Methods (actions that a class can perform, e.g. updating an attribute) - third compartment of a class box.
 
-Here is a sample visual notation of an Employee class along with class code: [Class diagram](./img/class-concept.drawio.html),
+Here is a sample visual notation of an Employee class along with class code:
+
+<a href="https://ntonbala.github.io/uml-diagrams/Structural/Class/img/class-concept.drawio.html" target="_blank">Class diagram example</a>,
 
 ```
 class Employee {
