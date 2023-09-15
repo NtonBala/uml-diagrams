@@ -27,7 +27,7 @@ Class can be identified by 3 compartments:
 
 Here is a sample visual notation of an Employee class along with class code:
 
-<a href="https://ntonbala.github.io/uml-diagrams/Structural/Class/img/class-concept.drawio.html" target="_blank">Class diagram example</a>,
+[Class diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/class-concept.drawio.html)
 
 ```
 class Employee {
@@ -57,3 +57,11 @@ There can be next types of relationships in class diagram:
 - Aggregation
 - Composition
 - Realization
+
+#### Association
+
+Association shows how objects of one class interact with the objects of another class and defines the multiplicity of the relationship. This can be one to one, one to many, many to one or many to many relationships.
+
+Relationship associations are depicted as a line connecting two class objects with endpoints that can be labeled to show the multiplicity.
+
+E.g. Student and Course - a student can take multiple courses and a course can be taken by multiple students. So, they are bound with association which represents a many to many relationship: [Association diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-association.drawio.html).
