@@ -65,3 +65,9 @@ Association shows how objects of one class interact with the objects of another 
 Relationship associations are depicted as a line connecting two class objects with endpoints that can be labeled to show the multiplicity.
 
 E.g. Student and Course - a student can take multiple courses and a course can be taken by multiple students. So, they are bound with association which represents a many to many relationship: [Association diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-association.drawio.html).
+
+#### Inheritance
+
+Inheritance represents hierarchical relationships between classes, whereas a subclass inherits attributes and methods from its parent class and may add or override some of its own attributes and behavior.
+
+This relationship is represented by an arrow, pointing from the subclass to the superclass with a field triangle as an arrowhead. E.g. a _Dog_ is a specific form of _Animal_ and inherits characteristics from _Animal_ class: [Inheritance diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-inheritance.drawio.html).
