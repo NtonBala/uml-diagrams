@@ -71,3 +71,9 @@ E.g. Student and Course - a student can take multiple courses and a course can b
 Inheritance represents hierarchical relationships between classes, whereas a subclass inherits attributes and methods from its parent class and may add or override some of its own attributes and behavior.
 
 This relationship is represented by an arrow, pointing from the subclass to the superclass with a field triangle as an arrowhead. E.g. a _Dog_ is a specific form of _Animal_ and inherits characteristics from _Animal_ class: [Inheritance diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-inheritance.drawio.html).
+
+#### Aggregation
+
+This is a type of association that represents a whole-part relationship between two classes. Aggregation indicates that an object of one class contains the object of another class.
+
+In this [Aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-aggregation-1.drawio.html), the _Part_ class has its own lifecycle and it can exist independently of the _WholeClass_,
