@@ -77,3 +77,7 @@ This relationship is represented by an arrow, pointing from the subclass to the 
 This is a type of association that represents a whole-part relationship between two classes. Aggregation indicates that an object of one class contains the object of another class.
 
 In this [Aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-aggregation-1.drawio.html), the _Part_ class has its own lifecycle and it can exist independently of the _WholeClass_,
+
+Aggregation can be thought of as a has a or a is part of a relationship.
+
+Let's consider a real-world example of a _Wallet_ and _Money_: [Wallet-Money aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/wallet-money.drawio.html). A wallet has money, but money does not necessarily need to have a wallet. So it's a one directional relationship and money can exist without a wallet as well.
