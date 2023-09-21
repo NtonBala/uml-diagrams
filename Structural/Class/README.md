@@ -82,4 +82,6 @@ Aggregation can be thought of as a has a or a is part of a relationship.
 
 Let's consider a real-world example of a _Wallet_ and _Money_: [Wallet-Money aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/wallet-money.drawio.html). A wallet has money, but money does not necessarily need to have a wallet. So it's a one directional relationship and money can exist without a wallet as well.
 
-Another real-world example is Car and Wheel. A car can not move without a wheel, but the wheel can be independently used with the bike scooter cycle or other vehicles: [Car-Wheel aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/car-wheel.drawio.html).
+Another real-world example is Car and Wheel. A car can not move without a wheel, but the wheel can be independently used with the bike scooter cycle or other vehicles: [Car-Wheel aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/car-wheel.drawio.html). The Wheel object can exist without a Car object, which proves to be an aggregation relationship.
+
+_Aggregation relationship_ is represented with the line joining the whole and part class with a hollow diamond pointing to the whole class.
