@@ -85,3 +85,9 @@ Let's consider a real-world example of a _Wallet_ and _Money_: [Wallet-Money agg
 Another real-world example is Car and Wheel. A car can not move without a wheel, but the wheel can be independently used with the bike scooter cycle or other vehicles: [Car-Wheel aggregation diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/car-wheel.drawio.html). The Wheel object can exist without a Car object, which proves to be an aggregation relationship.
 
 _Aggregation relationship_ is represented with the line joining the whole and part class with a hollow diamond pointing to the whole class.
+
+#### Composition
+
+_Composition_ type of relationship is a special type of aggregation that represents a strong whole part relationship between two classes. In composition relationship, the _Part class_ has a much tighter coupling with the _Whole class_ and it can not exist independently of the _Whole class_.
+
+E.g. a human needs a heart to live and the heart needs a human body to function - both can not exist independently of each other, so they are tightly coupled: [Human-Heart composition diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/human-heart.drawio.html).
