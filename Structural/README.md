@@ -6,7 +6,7 @@ Since this diagram represents the structure, they are used frequently in documen
 
 Diagrams in this category are:
 
-1. Class Diagram
+1. [Class Diagram](#class-diagram)
 2. Object Diagram
 3. Component Diagram
 4. Composite Structure Diagram
