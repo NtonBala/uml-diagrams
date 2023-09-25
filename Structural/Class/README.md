@@ -56,7 +56,7 @@ There can be next types of relationships in class diagram:
 - [Inheritance](#inheritance)
 - [Aggregation](#aggregation)
 - [Composition](#composition)
-- Realization
+- [Realization](#realization)
 
 #### Association
 
@@ -95,3 +95,9 @@ E.g. a human needs a heart to live and the heart needs a human body to function 
 Another example is a Folder and a file. Folder contains the file, but if the folder is deleted, the files are also deleted. So again, part can not exist independently of the whole class: [Folder-File composition diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/folder-file.drawio.html).
 
 _Composition_ relationship is represented with a line joining the _Whole_ and _Part_ class with a field diamond pointing to the _Whole_ class.
+
+#### Realization
+
+This type of relationship represents how one element implements the behavior specified by another element.
+
+It is commonly used to model the relationship between an interface or an abstract class and its implementations: [Realization diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-realization.drawio.html).
