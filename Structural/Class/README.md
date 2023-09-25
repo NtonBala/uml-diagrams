@@ -91,3 +91,7 @@ _Aggregation relationship_ is represented with the line joining the whole and pa
 _Composition_ type of relationship is a special type of aggregation that represents a strong whole part relationship between two classes. In composition relationship, the _Part class_ has a much tighter coupling with the _Whole class_ and it can not exist independently of the _Whole class_.
 
 E.g. a human needs a heart to live and the heart needs a human body to function - both can not exist independently of each other, so they are tightly coupled: [Human-Heart composition diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/human-heart.drawio.html).
+
+Another example is a Folder and a file. Folder contains the file, but if the folder is deleted, the files are also deleted. So again, part can not exist independently of the whole class: [Folder-File composition diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/folder-file.drawio.html).
+
+_Composition_ relationship is represented with a line joining the _Whole_ and _Part_ class with a field diamond pointing to the _Whole_ class.
