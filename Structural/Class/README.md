@@ -101,3 +101,12 @@ _Composition_ relationship is represented with a line joining the _Whole_ and _P
 This type of relationship represents how one element implements the behavior specified by another element.
 
 It is commonly used to model the relationship between an interface or an abstract class and its implementations: [Realization diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/relationships-concept-realization.drawio.html).
+
+E.g. a concept of a Vehicle is an abstract idea that can be realized in various forms, such as Car, Truck, Bus or Bicycle. These realizations share common features but have distinct characteristics and behaviors: [IVehicle-Car realization diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/ivehicle-car.drawio.html).
+
+In UML abstract concept may be represented as an abstract class or interface, while each specific realization can be modeled as a subclass that implements the abstract class or interface:
+
+- In interface, the realization relationship shows how a class, that implements the interface, provides a concrete implementation for a method defined by the interface.
+- In contrast, in an abstract class, the realization relationship depicts how a subclass provides concrete implementation for the abstract methods defined by the abstract class.
+
+The _realization_ relationship is symbolized by a dashed line with an unfilled arrowhead pointing from client element to the supplier element and the keyword "Realized" written near the arrowhead.
