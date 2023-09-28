@@ -110,3 +110,12 @@ In UML abstract concept may be represented as an abstract class or interface, wh
 - In contrast, in an abstract class, the realization relationship depicts how a subclass provides concrete implementation for the abstract methods defined by the abstract class.
 
 The _realization_ relationship is symbolized by a dashed line with an unfilled arrowhead pointing from client element to the supplier element and the keyword "Realized" written near the arrowhead.
+
+##### Inheritance vs Realization
+
+There may be doubts: is the inheritance and realization looking the same? But they are not:
+![Realization vs Inheritance](./img/realization-vs-inheritance.png)
+
+_Realization_ models how one element implements the behavior specified by another element. While inheritance models how one element inherits the properties and behavior of another element
+
+The key difference here is that _implementation_ involves providing concrete implementation for methods defined by an interface or an abstract class. While _inheritance_ involves inheriting properties and behavior from the superclass and possibly adding more to it and overriding them in the subclass.
