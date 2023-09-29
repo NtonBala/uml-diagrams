@@ -119,3 +119,9 @@ There may be doubts: is the inheritance and realization looking the same? But th
 _Realization_ models how one element implements the behavior specified by another element. While inheritance models how one element inherits the properties and behavior of another element
 
 The key difference here is that _implementation_ involves providing concrete implementation for methods defined by an interface or an abstract class. While _inheritance_ involves inheriting properties and behavior from the superclass and possibly adding more to it and overriding them in the subclass.
+
+#### Multiplicity
+
+Once the type of association relationship is established by connecting the classes, we can specify the _multiplicity_ - number of instances of one class that are linked with the instances of another class.
+
+_Multiplicity_ is often denoted as a range of values, such as `0..1`, `1..\*` or `2..4`, which denotes the **minimum** and **maximum** (`min…max`) number of instances of a class that can be linked with the instances of another class.
