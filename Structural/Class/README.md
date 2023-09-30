@@ -125,3 +125,10 @@ The key difference here is that _implementation_ involves providing concrete imp
 Once the type of association relationship is established by connecting the classes, we can specify the _multiplicity_ - number of instances of one class that are linked with the instances of another class.
 
 _Multiplicity_ is often denoted as a range of values, such as `0..1`, `1..\*` or `2..4`, which denotes the **minimum** and **maximum** (`min…max`) number of instances of a class that can be linked with the instances of another class.
+
+There are next types of multiplicity that can be used in the association:
+
+- One to One
+- One to Many
+- Many to One
+- Many to Many
