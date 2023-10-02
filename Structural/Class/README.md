@@ -75,13 +75,17 @@ _Multiplicity_ is often denoted as a range of values, such as `0..1`, `1..\*` or
 There are next types of multiplicity that can be used in the association:
 
 - [One to One](#one-to-one)
-- One to Many
+- [One to Many](#one-to-many)
 - Many to One
 - Many to Many
 
 ###### One to One
 
 In this type of association one instance of class is associated with only one instance of another class: [One to one association diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/one-to-one-association.drawio.html).
+
+###### One to Many
+
+In this type of association, one instance of a class is associated with multiple instances of another class: [One to many association diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/one-to-many-association.drawio.html).
 
 #### Inheritance
 
