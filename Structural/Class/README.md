@@ -76,7 +76,7 @@ There are next types of multiplicity that can be used in the association:
 
 - [One to One](#one-to-one)
 - [One to Many](#one-to-many)
-- Many to One
+- [Many to One](#many-to-one)
 - Many to Many
 
 ###### One to One
@@ -86,6 +86,10 @@ In this type of association one instance of class is associated with only one in
 ###### One to Many
 
 In this type of association, one instance of a class is associated with multiple instances of another class: [One to many association diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/one-to-many-association.drawio.html).
+
+###### Many to One
+
+In this type of association multiple instances of a class are associated with only one instance of another class: [Many to one association diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/many-to-one-association.drawio.html).
 
 #### Inheritance
 
