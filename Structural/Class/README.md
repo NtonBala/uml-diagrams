@@ -11,7 +11,7 @@ Class diagram fundamental concepts are:
 - [Class](#class)
 - [Visibility](#visibility)
 - [Relationships](#relationships)
-- Multiplicity
+- [Multiplicity](#multiplicity)
 
 ### Class
 
