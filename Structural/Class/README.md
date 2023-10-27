@@ -150,3 +150,11 @@ There may be doubts: is the inheritance and realization looking the same? But th
 _Realization_ models how one element implements the behavior specified by another element. While inheritance models how one element inherits the properties and behavior of another element
 
 The key difference here is that _implementation_ involves providing concrete implementation for methods defined by an interface or an abstract class. While _inheritance_ involves inheriting properties and behavior from the superclass and possibly adding more to it and overriding them in the subclass.
+
+## Examples
+
+So, class diagram is very close to the code, hence it's referred as a blueprint of the code, giving the class level view of the application and the idea of how the code will be structured.
+
+## Online Shopping Application
+
+Here is real world class diagram example: [online shopping application](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/online-shopping-application-class-diagram.drawio.html).
