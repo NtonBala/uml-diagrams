@@ -79,6 +79,18 @@ There are next types of multiplicity that can be used in the association:
 - [Many to One](#many-to-one)
 - [Many to Many](#many-to-many)
 
+To read _multiplicity_ we first define the end of relationship. The end of relationship is named by the name of the class we put on the first position in relationship. E.g. consider [one to many association diagram example](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/one-to-many-association.drawio.html). Here we can read relationship as Department - Employee relationship, putting `Department` class on the first position in the relationship. Or we can do it as Employee - Department relationship, putting `Employee` class on the first position.
+
+If we read it as Department - Employee relationship, we can say:
+
+> The multiplicity at Department end is one to many, meaning that one department (Department instance) can contain one or many
+> employees (Employee instances).
+
+And vice versa, if we read it as Employee - Department relationship, we say:
+
+> At the Employee end, the multiplicity is many to one: one or many employees (Employee instances) can belong to one
+> department (Department instance).
+
 ###### One to One
 
 In this type of association one instance of class is associated with only one instance of another class: [One to one association diagram](https://ntonbala.github.io/uml-diagrams/Structural/Class/img/one-to-one-association.drawio.html).
