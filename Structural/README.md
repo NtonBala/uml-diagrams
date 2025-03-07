@@ -6,12 +6,13 @@ Since this diagram represents the structure, they are used frequently in documen
 
 Diagrams in this category are:
 
-1. [Class Diagram](#class-diagram)
-2. Object Diagram
-3. Component Diagram
-4. Composite Structure Diagram
+1. [Class Diagram](./Class/README.md)
+2. [Object Diagram](./Object/README.md)
+3. [Component Diagram](./Component/README.md)
+4. [Composite Structure Diagram](./CompositeStructure/README.md)
 5. Deployment Diagram
 6. Package Diagram
+7. Profile Diagram
 
 ## Class Diagram
 

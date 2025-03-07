@@ -8,8 +8,8 @@ UML uses various views to represent the blueprint of a final project from differ
 
 As of UML version 2, there are **_14 types_** of diagrams divided into 2 main categories:
 
-- [Structural](#structural)
-- [Behavioral](#behavioral)
+- [Structural](./Structural/README.md)
+- Behavioral
 
 ### Structural
 
